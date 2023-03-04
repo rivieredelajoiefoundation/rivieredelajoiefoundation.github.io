@@ -16,6 +16,7 @@ header{
 .nav-bar{
     width: 100%;
     background: #2926d8;
+    height: 100%;
 }
 .nav-bar a{
     display: inline-block;
@@ -38,6 +39,8 @@ header .nav-bar ul{
     /* margin-right: 50px; */
     /* width: calc(100% - 30%); */
     /* display: none; */
+    background: #2926d8;
+    height: 100%;
 
 }
 .nav-bar ul li{
