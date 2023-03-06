@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+/* header{
     width: 100vw;
     height: 3.5rem;
    
@@ -26,20 +26,20 @@ header{
     margin-top: 3px;
 }
 .nav-bar .logo img{
-    width: 100%;
+    width: 100%; */
 
-}
-header .nav-bar ul{
+/* } */
+/* header .nav-bar ul{
     display: inline-block;
-    list-style: none;
+    list-style: none; */
     /* float: right; */
-    vertical-align: middle;
-    padding-top: 20px;
+    /* vertical-align: middle;
+    padding-top: 20px; */
     /* margin-right: 50px; */
     /* width: calc(100% - 30%); */
     /* display: none; */
 
-}
+/* }
 .nav-bar ul li{
     margin-left: 20px;
     margin: 30px 40px;
@@ -98,12 +98,12 @@ header .nav-bar ul{
     background: #d82653;
     padding: 10px;
     border-radius: 5px;
-}
+} */
 
 /* styling activities overview */
 #activities-overview{
     width: 100vw;
-    margin-top: 5rem;
+    margin-top: 3rem;
     height: 80vh;
 }
 #activities-overview h1{
@@ -126,8 +126,9 @@ header .nav-bar ul{
 #about-riviere{
     width: 100vw;
     /* height: 100vh; */
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
     background: transparent;
+    margin-top: 2rem;
 }
 #about-riviere .about-info{
    background: #db5959;
@@ -148,11 +149,14 @@ header .nav-bar ul{
     color: #fff;
 }
 #about-riviere img{
- max-width: 100%;
+    width: 100%;
     height: 50%;
   
 }
 #more-text{
+    display: none;
+}
+#more{
     display: none;
 }
 .about-info button{
@@ -286,7 +290,6 @@ footer .footer-container div{
 footer .footer-container div ul{
     list-style: none;
     margin: 20px 0;
-    /* justify-content: left; */
 }
 .footer-container div ul li{
     justify-content: start;
@@ -333,14 +336,14 @@ footer .footer-container .footer-contact{
     display: block;
 }
 .footer-container .footer-contact .social-icon i{
-    margin-right: 1rem;
-    font-size: 1.8rem;
+    /* margin-right: 0.4rem; */
+    font-size: 1rem;
     color: #fff;
     display: inline-block;
     background: #2926d8;
-    padding: 15px;
+    padding: 10px;
     border-radius: 3px;
-    box-shadow: 1px 2px 1px 2px rgb(201, 75, 30, 0.3);
+    box-shadow: -1px -2px -1px -2px rgb(201, 75, 30, 0.3);
 }
 .footer-container .footer-contact .social-icon i:hover{
     color: #d826ba;

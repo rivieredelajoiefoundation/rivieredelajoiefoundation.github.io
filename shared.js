@@ -11,27 +11,10 @@ cross.addEventListener('click', function(){
       navList.style.left = '100vw';      
 })
 
-// image slider
-
-// const imageList = document.querySelectorAll('.image-slider img')
-// setTimeout(slideShow, 2000)
-// function slideShow(){
-// for(let i = 1; i < imageList.length; i++){
-//     imageList[i].style.display = 'block';
-//     let previousShow = imageList.slice(0,i);
-//     let nextShow = imageList.slice(i);
-//     for(image of previousShow){       
-//         image.style.display = 'none'
-//     }
-//     for(image of nextShow){
-//         image.style.display = 'none'
-//     }
-// }
-// }
+//multiple readmore buttons
 
 let numOfChar = 80;
 let contents = document.querySelectorAll('.content');
-// console.log(content);
 contents.forEach(content =>{
     if(content.textContent.length < numOfChar){
         content.nextElementSibling.getElementsByClassName.display = "none";
@@ -48,21 +31,7 @@ function readMore(btn){
     project.querySelector(".more").classList.toggle("hide");
     btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
 }
-
-// Read more on home page 
-const button = document.querySelector('.about-info button');
-const moreText = document.querySelector('#more-text');
-button.addEventListener('click', function(){
-if(moreText.style.display !== 'none'){
-    moreText.style.display = 'none';
-    button.innerHTML = 'Read Less';
-}
-else{
-    moreText.style.display = 'inline';
-    button.innerHTML = 'Read More'
-}
-}
-)
+// readmore button js
 function showMore(){
     const dots = document.getElementById('dots');
     const moreText = document.getElementById('more');
@@ -78,3 +47,21 @@ function showMore(){
   }
 }
 
+// backdrop message popup
+
+const backdrop = document.querySelector('.backdrop');
+const dropContact = document.querySelector('#contact-minimize');
+const messageIcon = document.querySelector('#message');
+const contactForm = document.querySelector('.contact-form');
+messageIcon.addEventListener('click', function(){
+    backdrop.style.display = 'block';
+    contactForm.style.display = 'block';
+})
+backdrop.addEventListener('click', ()=>{
+    backdrop.style.display = 'none';
+    contactForm.style.display = 'none';
+})
+dropContact.addEventListener('click', function(){
+    backdrop.style.display = 'none';
+    contactForm.style.display = 'none';
+})

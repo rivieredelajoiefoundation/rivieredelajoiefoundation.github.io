@@ -15,7 +15,7 @@
             <a href="../index.html" class="logo"><img src="/images/logo.png" alt=""></a>
             <ul class="nav-list">
                 <i class="fa-solid fa-x" id="cross"></i>
-                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="../index.html">Home</a></li>
                 <li class="nav-item"><a href="/about/index.html">About</a></li>
                 <li class="nav-item"><a href="/contacts/index.html">Contact US</a></li>
                 <li class="nav-item"><a href="/projects/index.html">Projects</a></li>
@@ -28,6 +28,7 @@
             </div>
         </nav>
     </header>
+    <div class="backdrop"></div>
     <h1 id="project-title">Our project List</h1>
     <div class="project-list">
       <div class="wigire">
@@ -175,56 +176,68 @@
        </p><button class="btn" onclick="readMore(this)">Read More</button>
     </div>
   </div>
-    <footer>
-        <div class="footer-container">
-        <div class="footer-about">
-            <h2>About US</h2>
-          <ul>
-            <li><a href="/donation/index.html">Donate Us</a></li>
-            <li><a href="/projects/index.html">Projects</a></li>
-            <li><a href="/involve/index.html">Join us</a></li>
-            <li><a href="/actitvities/index.html">activities</a></li>
-          </ul>
+  <footer>
+    <div class="footer-container">
+    <div class="footer-about">
+        <h2>About US</h2>
+      <ul>
+        <li><a href="/donation/index.html">Donate Us</a></li>
+        <li><a href="/about/index.html">About Us</a></li>
+        <li><a href="/projects/index.html">Projects</a></li>
+        <li><a href="/involve/index.html">Join us</a></li>
+        <li><a href="/actitvities/index.html">activities</a></li>
+      </ul>
+    </div>
+    <div class="footer-partners">
+        <h2>Our Partners</h2>
+        <ul>
+          <li><a href="#">Solution BrainBox FZCO</a></li>
+          <li><a href="#">Inganzo Network</a></li>
+          <li><a href="#">Youth Leaders Ambassadors Network</a></li>
+          <li><a href="#">Great Lakes Peace center</a></li>
+          <li><a href="#">Labenevolencija</a></li>
+          <li><a href="#">African Union Youth Assembly</a></li>
+          <li><a href="#">Alert international</a></li>
+          <li><a href="#">FVA</a></li>
+          <li><a href="#">Search For Common Ground</a></li>
+          <li><a href="#">Great lakes Youth Network for Dialogue and Peace</a></li>
+        </ul>
+    </div>
+    <div class="footer-contact">
+        <h2>Contact Us</h2>
+        <i class="fa-solid fa-message" id="message"></i> 
+        <div class="contact-form">
+         <i class="fa-solid fa-x" id="contact-minimize"></i>
+        <form>
+            <input type="text" placeholder="Your name" id="name" required>
+            <input type="email" placeholder="Your email" id="email" required>
+            <textarea name="message" id="message" cols="29" rows="5" placeholder="Your message"></textarea>
+            <input type="submit" value="send" id="submit" >
+          </form>
         </div>
-        <div class="footer-partners">
-            <h2>Our Partners</h2>
-            <ul>
-              <li><a href="#">Inganzo Network</a></li>
-              <li><a href="#">Benevolencijia</a></li>
-              <li><a href="#">Youth Leaders Ambassadors Network</a></li>
-            </ul>
-        </div>
-        <div class="footer-contact">
-            <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Your name" id="name" required>
-                <input type="email" placeholder="Your email" id="email" required>
-                <textarea name="message" id="message" cols="29" rows="5" placeholder="Your message"></textarea>
-                <input type="submit" value="send" id="submit" >
-              </form>
-              <div class="social-icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </div>
-        <div class="footer-address">
-            <h2>Our Address</h2>
-            <ul>
-              <li><a href=""><i class="fa-solid fa-location-dot"></i> Rwanda, Western, Rusizi, Bugarama</a></li>
-              <li><a href=""><i class="fa-solid fa-envelope"></i> info.rivdejoie1@gmail.com</a></li>
-              <li><a href=""><i class="fa-sharp fa-solid fa-phone"></i> +2507884421</a></li>
-              <li><a href="rivieredelajoiefoundation.github.io"><i class="fa-regular fa-globe"></i>rivieredelajoiefoundation.github.io</a></li>
-            </ul>
-        </div>
-        <hr>
-        <div class="copyright">
-            <p>&copy; Coopy right reserved 2023 Riviere de la joir foundation</p>
+          <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </div>
-      </footer>
+    <div class="footer-address">
+        <h2>Our Address</h2>
+        <ul>
+          <li><a href=""><i class="fa-solid fa-location-dot"></i> Rwanda, Western, Rusizi, Bugarama</a></li>
+          <li><a href=""><i class="fa-solid fa-envelope"></i> info.rivdejoie1@gmail.com</a></li>
+          <li><a href=""><i class="fa-sharp fa-solid fa-phone"></i> +2507884421</a></li>
+          <li><a href="rivieredelajoiefoundation.github.io"><i class="fa-sharp fa-regular fa-globe"></i>rivieredelajoiefoundation.github.io</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>&copy; Coopy right reserved 2023 Riviere de la joir foundation</p>
+    </div>
+</div>
+  </footer>
       <script src="../shared.js"></script>
     
 </body>
