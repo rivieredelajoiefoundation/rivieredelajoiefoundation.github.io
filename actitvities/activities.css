@@ -17,6 +17,8 @@
 .activities-act .traffic{
     display: flex;
     flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
     background: #e12dea;
     color: aliceblue;
 }
