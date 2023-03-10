@@ -9,96 +9,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* header{
-    width: 100vw;
-    height: 3.5rem;
-   
+body{
+    display: grid;
+    /* grid-template-rows: 3.5rem; */
+    grid-template-areas: "header"
+                         "about-riviere"
+                         "recent-activities"
+                         "mission-vision"
+                         "what-we-do"
+                         "values"
+                         "footer";
 }
-.nav-bar{
-    width: 100%;
-    background: #2926d8;
-}
-.nav-bar a{
-    display: inline-block;
-    width: 80px;
-    height: 100%;
-    margin-left: 5px;
-    margin-top: 3px;
-}
-.nav-bar .logo img{
-    width: 100%; */
-
-/* } */
-/* header .nav-bar ul{
-    display: inline-block;
-    list-style: none; */
-    /* float: right; */
-    /* vertical-align: middle;
-    padding-top: 20px; */
-    /* margin-right: 50px; */
-    /* width: calc(100% - 30%); */
-    /* display: none; */
-
-/* }
-.nav-bar ul li{
-    margin-left: 20px;
-    margin: 30px 40px;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 15px;
-    background: #2926d8;
-    width: 50%;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0 , 0.5);
-}
-.nav-bar ul li:hover {
-    background: #d85026;
-
-}
-.nav-bar ul li:last-of-type{
-    background: rgb(201, 75, 30);
-    margin-top: 30px;
-}
-.nav-bar ul li:last-of-type:hover{
-    background: transparent;
-}
-.nav-bar ul li a{
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-
-}
-.nav-bar .bars{
-    display: inline-block;
-    float: right;
-    font-size: 2rem;
-    margin-right: 30px;
-    margin-top: 20px;
-    color: #fff;
-}
-.nav-list{
-    display: block;
-    list-style: none;
-    padding-top: 20px;
-    width: 100%;
-    height: 100vh;
-    background: rgb(43, 43, 116);
-    position: fixed;
-    left: 200%;
-    transition: all 0.5s;
-}
-.nav-list i{
-    display: block;
-    font-size: 24px;
-    font-weight: 500;
-    float: right;
-    margin: 0px 30px;
-    color: #fff;
-    background: #d82653;
-    padding: 10px;
-    border-radius: 5px;
-} */
 
 /* styling activities overview */
 #activities-overview{

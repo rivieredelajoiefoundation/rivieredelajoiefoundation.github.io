@@ -7,6 +7,16 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+/* body{
+    display: grid;
+    grid-template-areas: "header"
+                         "about-riviere"
+                         "recent-activities"
+                         "mission-vision"
+                         "what-we-do"
+                         "values"
+                         "footer";
+} */
 
 /* styling a backdrop */
 .backdrop{
@@ -149,8 +159,8 @@ footer .footer-container div ul{
     justify-content: start;
 }
 footer .footer-container div ul li{
-    line-height: 2rem;
-    font-size: 1.2rem;
+    line-height: 1.8rem;
+    /* font-size: 1.2rem; */
 }
 footer .footer-container div ul li a{
     text-decoration: none;
