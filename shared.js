@@ -4,12 +4,15 @@ const cross = document.querySelector('#cross');
 const navList =  document.querySelector('.nav-list');
 bars.addEventListener('click', function(){
   
-       navList.style.left = '0';
+       navList.style.left = '35%';
+       backdrop.style.display = 'block';
+
     }
 )
-cross.addEventListener('click', function(){
-      navList.style.left = '100vw';      
-})
+// cross.addEventListener('click', function(){
+//       navList.style.left = '100vw';
+
+// })
 
 //multiple readmore buttons
 
@@ -60,6 +63,7 @@ messageIcon.addEventListener('click', function(){
 backdrop.addEventListener('click', ()=>{
     backdrop.style.display = 'none';
     contactForm.style.display = 'none';
+    navList.style.left = '100%'
 })
 dropContact.addEventListener('click', function(){
     backdrop.style.display = 'none';

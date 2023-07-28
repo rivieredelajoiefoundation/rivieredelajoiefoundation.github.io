@@ -5,30 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>actitvities</title>
-    <link rel="icon" href="../images/logo.PNG">
-    <script src="https://kit.fontawesome.com/6e78044546.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/images/logo.PNG" />
+    <link rel="stylesheet" href="shared.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/flatly/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="activities.css">
     <link rel="stylesheet" href="../shared.css">
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <a href="../index.html" class="logo"><img src="../images/logo.PNG" alt=""></a>
-            <ul class="nav-list">
-                <i class="fa-solid fa-x" id="cross"></i>
-                <li class="nav-item"><a href="../index.html">Home</a></li>
-                <li class="nav-item"><a href="/about/index.html">About</a></li>
-                <li class="nav-item"><a href="/contacts/index.html">Contact US</a></li>
-                <li class="nav-item"><a href="/projects/index.html">Projects</a></li>
-                <li class="nav-item"><a href="/actitvities/index.html">Activites</a></li>
-                <li class="nav-item"><a href="/involve/index.html">Get involved</a></li>
-                <li class="nav-item"><a href="/donation/index.html">Donate US</a></li>
+    
+    <nav class="navbar navbar-expand-lg bg-primary-subtle" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo.PNG" alt="" width="50" height="50" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white active" href="../index.html"
+                  >Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/contacts/index.html"
+                  >Contacts</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/donation/index.html"
+                  >Donate Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/about/index.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-white dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >More</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/projects/index.html"
+                    >Projects</a
+                  >
+                  <a class="dropdown-item" href="/actitvities/index.html"
+                    >Activities</a
+                  >
+                  <a class="dropdown-item" href="/involve/index.html">Join Us</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#mission">Mission</a>
+                  <a class="dropdown-item" href="#vision">Vision</a>
+                </div>
+              </li>
             </ul>
-            <div class="bars">
-                <i class="fa-solid fa-bars" id="bars"></i>
-            </div>
-        </nav>
-    </header>
+            <form class="d-flex">
+              <input
+                class="form-control me-sm-2"
+                type="search"
+                placeholder="Search"
+              />
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
     <div class="backdrop"></div>
     <div class="activities-act">
         <div class="traffic">
@@ -64,69 +144,210 @@
             </div>
         </div>
             </div>
-            <footer>
-                <div class="footer-container">
-                <div class="footer-about">
-                    <h2>About US</h2>
-                  <ul>
-                    <li><a href="/donation/index.html">Donate Us</a></li>
-                    <li><a href="/about/index.html">About Us</a></li>
-                    <li><a href="/projects/index.html">Projects</a></li>
-                    <li><a href="/involve/index.html">Join us</a></li>
-                    <li><a href="/actitvities/index.html">activities</a></li>
-                  </ul>
-                </div>
-                <div class="footer-partners">
-                    <h2>Our Partners</h2>
-                    <ul>
-                        <li><a href="#">Solution BrainBox FZCO</a></li>
-                        <li><a href="#">Inganzo Network</a></li>
-                        <li><a href="#">Youth Leaders Ambassadors Network</a></li>
-                        <li><a href="#">Great Lakes Peace center</a></li>
-                        <li><a href="#">African Union Youth Assembly</a></li>
-                        <h2>Potential partners</h2>
-                        <li><a href="#">Labenevolencija</a></li>
-                        <li><a href="#">Alert international</a></li>
-                        <li><a href="#">FVA</a></li>
-                        <li><a href="#">Search For Common Ground</a></li>
-                        <li><a href="#">Great lakes Youth Network for Dialogue and Peace</a></li>
-                      </ul>
-                </div>
-                <div class="footer-contact">
-                    <h2>Contact Us</h2>
-                    <i class="fa-solid fa-message" id="message"></i> 
-                    <div class="contact-form">
-                     <i class="fa-solid fa-x" id="contact-minimize"></i>
-                    <form>
-                        <input type="text" placeholder="Your name" id="name" required>
-                        <input type="email" placeholder="Your email" id="email" required>
-                        <textarea name="message" id="message" cols="29" rows="5" placeholder="Your message"></textarea>
-                        <input type="submit" value="send" id="submit" >
-                      </form>
-                    </div>
-                      <div class="social-icon">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="footer-address">
-                    <h2>Our Address</h2>
-                    <ul>
-                      <li><a href=""><i class="fa-solid fa-location-dot"></i> Rwanda, Western, Rusizi, Bugarama</a></li>
-                      <li><a href=""><i class="fa-solid fa-envelope"></i> info.rivdejoie1@gmail.com</a></li>
-                      <li><a href=""><i class="fa-sharp fa-solid fa-phone"></i> +250788408641</a></li>
-                      <li><a href="rivieredelajoiefoundation.github.io"><i class="fa-sharp fa-regular fa-globe"></i>rivieredelajoiefoundation.github.io</a></li>
-                    </ul>
-                </div>
-                <hr>
-                <div class="copyright">
-                    <p>&copy; Coopyright reserved 2023 Riviere de la joir foundation</p>
-                </div>
-            </div>
-              </footer>
+   <!-- footer section -->
+
+   <div class="container-fluid bg-secondary p-4">
+    <div class="row">
+      <div class="col-5">
+        <h4>About US</h4>
+        <ul style="list-style: none">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/donation/index.html"
+              >Donate Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/about/index.html"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/projects/index.html"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/involve/index.html"
+              >Join us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/actitvities/index.html"
+              >activities</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-5">
+        <div class="row justify-content-between">
+          <div class="partners col-lg-5">
+            <h4>Our Partners</h4>
+            <ul style="list-style: none">
+              <li>
+                <a class="nav-link text-white" href="#"
+                  >Solution BrainBox FZCO</a
+                >
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#">Inganzo Network</a>
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#"
+                  >Youth Leaders Ambassadors Network</a
+                >
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#"
+                  >Great Lakes Peace center</a
+                >
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#"
+                  >African Union Youth Assembly</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="potential col-lg-5">
+            <h4>Potential partners</h4>
+            <ul style="list-style: none">
+              <li>
+                <a class="nav-link text-white" href="#">Labenevolencija</a>
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#"
+                  >Alert international</a
+                >
+              </li>
+              <li><a class="nav-link text-white" href="#">FVA</a></li>
+              <li>
+                <a class="nav-link text-white" href="#"
+                  >Search For Common Ground</a
+                >
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#"
+                  >Great lakes Youth Network for Dialogue and Peace</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-lg-between mt-4">
+      <div class="col-5 justify-content-center">
+        <h4>Contact Us</h4>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="John Smith"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlInput1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="submit" id="submit" class="btn btn-warning">
+          Send <i class="bx bxs-paper-plane"></i>
+        </button>
+      </div>
+      <div class="col-5">
+        <h4 class="text-success-emphasis">
+          Our Address <i class="bx bx-current-location"></i>
+        </h4>
+        <ul style="list-style: none">
+          <li>
+            <a class="nav-link text-white" href=""
+              ><i class="bx bx-location-plus"></i> Rwanda, Western, Rusizi,
+              Bugarama</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link text-white"
+              href="mailto:info.rivdejoie1@gmail.com"
+              ><i class="bx bx-envelope"></i> info.rivdejoie1@gmail.com</a
+            >
+          </li>
+          <li>
+            <a class="nav-link text-white" href=""
+              ><i class="bx bx-phone"></i> +250788408641</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link text-white"
+              href="rivieredelajoiefoundation.github.io"
+              ><i class="bx bx-globe"></i>
+              rivieredelajoiefoundation.github.io</a
+            >
+          </li>
+        </ul>
+
+        <div class="social-icon">
+          <h5 class="text-center text-success-emphasis">Follow us:</h5>
+          <a class="nav-link text-white text-primary-emphasis" href="#"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a class="nav-link text-white" href="#"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a class="nav-link text-white" href="#"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a class="nav-link text-white" href="#"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+          <a class="nav-link text-white" href="#"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row"></div> -->
+
+    <hr />
+    <div class="row">
+      <p class="text-center text-success-emphasis">
+        &copy; 2023 Copyright reserved riviere de la joie foundation
+      </p>
+    </div>
+  </div>
+
+ 
+  <script src="shared.js"></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"
+></script>
       <script src="../shared.js"></script>
 </body>
 </html>
